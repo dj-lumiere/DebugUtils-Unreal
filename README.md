@@ -2,7 +2,7 @@
 
 [![Unreal 5+](https://img.shields.io/badge/Unreal-5.0%2B-blue.svg)](https://unrealengine.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/Version-1.0.0-orange.svg)]()
+[![Version](https://img.shields.io/badge/Version-v0.0.1-orange.svg)]()
 
 A comprehensive collection of debugging utilities for Unreal Engine developers that provides world navigation and call stack analysis tools for enhanced debugging and development workflow.
 
@@ -403,22 +403,22 @@ void TestPlayerMovement()
 
 **Current Features:**
 
-✅ `URepr` - Comprehensive object representation with Rust-style type suffixes  
-✅ `UCallStack` - Call stack tracking with function names and detailed info  
-✅ `UWorldNavigator` - World hierarchy navigation with path-based object finding  
-✅ Template-based type system for extensibility  
-✅ Blueprint integration for UCallStack and UWorldNavigator  
-✅ Logging macros (UE_REPR, UE_REPR_WARNING, UE_REPR_ERROR)  
-✅ Support for Unreal Engine container types (TArray, TMap, TSet, etc.)  
-✅ Zero external dependencies  
-✅ Header-only template system for URepr
+- ✅ `URepr` - Comprehensive object representation with Rust-style type suffixes  
+- ✅ `UCallStack` - Call stack tracking with function names and detailed info  
+- ✅ `UWorldNavigator` - World hierarchy navigation with path-based object finding  
+- ✅ Template-based type system for extensibility  
+- ✅ Blueprint integration for `UCallStack` and `UWorldNavigator`
+- ✅ Logging macros (`UE_REPR`, `UE_REPR_WARNING`, `UE_REPR_ERROR`)  
+- ✅ Support for Unreal Engine container types (`TArray`, `TMap`, `TSet`, etc.)  
+- ✅ Zero external dependencies  
+- ✅ Header-only template system for `URepr`
 
 **Planned Features:**
 
-- 🔄 Parsing with helpful error messages, down to column number
-- 🔄 Blueprint-callable URepr functionality
-- 🔄 FVector, FRotator, and other UE math type specializations for URepr
-- 🔄 
+- 🔄 Enhanced parsing with helpful error messages, down to the column number
+- 🔄 Blueprint-callable `URepr` functionality
+- 🔄 `FVector`, `FRotator`, and other UE math type specializations for `URepr`
+- 🔄 Automatic generation of `Repr` function by macro
 
 *This library started as a solution for Unreal Engine debugging pain points and is growing into a comprehensive UE debugging toolkit.*
 
