@@ -78,7 +78,7 @@ UActorComponent* UWorldNavigator::FindActorComponentByPath(FString& Path)
 	}
 	if (Result.ComponentNames.Num() != 1)
 	{
-		throw FString(TEXT("Only one component layer can be specified"));
+		throw FString(TEXT("Only one component layer should be specified"));
 	}
 	for (int32 i = 0; i < Result.ComponentNames.Num(); ++i)
 	{
